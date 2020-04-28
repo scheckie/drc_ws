@@ -1,8 +1,0 @@
-prefix=/home/user/drc_ws/devel
-
-Name: droid_gazebo
-Description: Description of droid_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/user/drc_ws/devel/lib 
-Requires: 

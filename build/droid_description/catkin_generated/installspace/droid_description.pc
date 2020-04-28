@@ -1,8 +1,0 @@
-prefix=/home/user/drc_ws/install
-
-Name: droid_description
-Description: Description of droid_description
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/user/drc_ws/install/lib 
-Requires: 

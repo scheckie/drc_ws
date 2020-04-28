@@ -11,10 +11,11 @@ Once everything is stabilized we will host this VM from github / google drive to
 ## Installation
 
 ```bash
+cd ~
 git clone https://github.com/qut-robotics-club/drc_ws
-cd DRC_ws
+cd drc_ws
 catkin_make
-echo "source ~/drc_ws/devel/setup.bash" >> ~/.bashrc
+echo "source ~/drc_ws/devel/setup.bash" >> ~/.bashrc # add catkin pkgs to path
 ```
 
 ## Running the Simulation

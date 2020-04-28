@@ -6,10 +6,11 @@
     <!--include>
       <uri>model://willowgarage</uri>
     </include-->
-
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
+    <model name="track">
+      <include>
+        <uri>model://track_layout</uri>
+      </include>
+    </model>
 
     <!-- Global light source -->
     <include>

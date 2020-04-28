@@ -1,2 +1,2 @@
-droid_description:droid_gazebo
+ackermann_vehicle:ackermann_vehicle_description:ackermann_vehicle_gazebo:droid_description:droid_gazebo:track_layout
 -DCATKIN_DEVEL_PREFIX=/home/user/drc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/drc_ws/install -G Unix Makefiles

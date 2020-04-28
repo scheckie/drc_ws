@@ -149,27 +149,12 @@ depend:
 	cd /home/user/drc_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-droid_description/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/user/drc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 droid_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : droid_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: droid_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/user/drc_ws/build && $(MAKE) -f droid_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make droid_description/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

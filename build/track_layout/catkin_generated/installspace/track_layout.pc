@@ -1,0 +1,8 @@
+prefix=/home/user/drc_ws/install
+
+Name: track_layout
+Description: Description of track_layout
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/drc_ws/install/lib 
+Requires: 

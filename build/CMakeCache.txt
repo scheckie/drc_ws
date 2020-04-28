@@ -252,16 +252,25 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
-basic_BINARY_DIR:STATIC=/home/user/drc_ws/build/basic
+ackermann_vehicle_BINARY_DIR:STATIC=/home/user/drc_ws/build/ackermann_vehicle
 
 //Value Computed by CMake
-basic_SOURCE_DIR:STATIC=/home/user/drc_ws/src/basic
+ackermann_vehicle_SOURCE_DIR:STATIC=/home/user/drc_ws/src/ackermann_vehicle
+
+//Value Computed by CMake
+ackermann_vehicle_description_BINARY_DIR:STATIC=/home/user/drc_ws/build/ackermann_vehicle_description
+
+//Value Computed by CMake
+ackermann_vehicle_description_SOURCE_DIR:STATIC=/home/user/drc_ws/src/ackermann_vehicle_description
+
+//Value Computed by CMake
+ackermann_vehicle_gazebo_BINARY_DIR:STATIC=/home/user/drc_ws/build/ackermann_vehicle_gazebo
+
+//Value Computed by CMake
+ackermann_vehicle_gazebo_SOURCE_DIR:STATIC=/home/user/drc_ws/src/ackermann_vehicle_gazebo
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
-
-//The directory containing a CMake configuration file for cpp_common.
-cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
 //Value Computed by CMake
 droid_description_BINARY_DIR:STATIC=/home/user/drc_ws/build/droid_description
@@ -300,62 +309,11 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
-//Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
-
-//The directory containing a CMake configuration file for message_runtime.
-message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
+//Value Computed by CMake
+track_layout_BINARY_DIR:STATIC=/home/user/drc_ws/build/track_layout
 
 //Value Computed by CMake
-mybot_control_BINARY_DIR:STATIC=/home/user/drc_ws/build/mybot_control
-
-//Value Computed by CMake
-mybot_control_SOURCE_DIR:STATIC=/home/user/drc_ws/src/mybot_control
-
-//Value Computed by CMake
-mybot_description_BINARY_DIR:STATIC=/home/user/drc_ws/build/mybot_description
-
-//Value Computed by CMake
-mybot_description_SOURCE_DIR:STATIC=/home/user/drc_ws/src/mybot_description
-
-//Value Computed by CMake
-mybot_gazebo_BINARY_DIR:STATIC=/home/user/drc_ws/build/droid_gazebo
-
-//Value Computed by CMake
-mybot_gazebo_SOURCE_DIR:STATIC=/home/user/drc_ws/src/droid_gazebo
-
-//Value Computed by CMake
-mybot_navigation_BINARY_DIR:STATIC=/home/user/drc_ws/build/mybot_navigation
-
-//Value Computed by CMake
-mybot_navigation_SOURCE_DIR:STATIC=/home/user/drc_ws/src/mybot_navigation
-
-//The directory containing a CMake configuration file for rosconsole.
-rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
-
-//The directory containing a CMake configuration file for roscpp.
-roscpp_DIR:PATH=/opt/ros/indigo/share/roscpp/cmake
-
-//The directory containing a CMake configuration file for roscpp_serialization.
-roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
-
-//The directory containing a CMake configuration file for roscpp_traits.
-roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
-
-//The directory containing a CMake configuration file for rosgraph_msgs.
-rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
-
-//The directory containing a CMake configuration file for rospy.
-rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
-
-//The directory containing a CMake configuration file for rostime.
-rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
-
-//The directory containing a CMake configuration file for std_msgs.
-std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
-
-//The directory containing a CMake configuration file for xmlrpcpp.
-xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
+track_layout_SOURCE_DIR:STATIC=/home/user/drc_ws/src/track_layout
 
 
 ########################
@@ -459,7 +417,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -117,8 +117,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/user/drc_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/user/drc_ws/build/ackermann_vehicle/cmake_install.cmake")
+  INCLUDE("/home/user/drc_ws/build/ackermann_vehicle_description/cmake_install.cmake")
+  INCLUDE("/home/user/drc_ws/build/ackermann_vehicle_gazebo/cmake_install.cmake")
   INCLUDE("/home/user/drc_ws/build/droid_description/cmake_install.cmake")
   INCLUDE("/home/user/drc_ws/build/droid_gazebo/cmake_install.cmake")
+  INCLUDE("/home/user/drc_ws/build/track_layout/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

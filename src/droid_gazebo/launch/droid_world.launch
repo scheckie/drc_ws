@@ -7,9 +7,13 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
+
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server">
+    <param name="port" value="8080" />
+  </node>
  
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" > 
-    <arg name="port" value="9090"/>
+    <arg name="port" value="9090" />
   </include>
  
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
